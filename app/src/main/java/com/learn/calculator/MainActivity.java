@@ -23,54 +23,54 @@ public class MainActivity extends AppCompatActivity {
         String s = (String) calc_box.getText();
         switch(view.getId()) {
             case R.id.num0:
-                CalculatorUpdate.Updater(calc_box, "0");
+                CalculatorUpdate.Updater(calc_box, "0", getApplicationContext());
                 break;
             case R.id.num1:
-                CalculatorUpdate.Updater(calc_box, "1");
+                CalculatorUpdate.Updater(calc_box, "1", getApplicationContext());
                 break;
             case R.id.num2:
-                CalculatorUpdate.Updater(calc_box, "2");
+                CalculatorUpdate.Updater(calc_box, "2", getApplicationContext());
                 break;
             case R.id.num3:
-                CalculatorUpdate.Updater(calc_box, "3");
+                CalculatorUpdate.Updater(calc_box, "3", getApplicationContext());
                 break;
             case R.id.num4:
-                CalculatorUpdate.Updater(calc_box, "4");
+                CalculatorUpdate.Updater(calc_box, "4", getApplicationContext());
                 break;
             case R.id.num5:
-                CalculatorUpdate.Updater(calc_box, "5");
+                CalculatorUpdate.Updater(calc_box, "5", getApplicationContext());
                 break;
             case R.id.num6:
-                CalculatorUpdate.Updater(calc_box, "6");
+                CalculatorUpdate.Updater(calc_box, "6", getApplicationContext());
                 break;
             case R.id.num7:
-                CalculatorUpdate.Updater(calc_box, "7");
+                CalculatorUpdate.Updater(calc_box, "7", getApplicationContext());
                 break;
             case R.id.num8:
-                CalculatorUpdate.Updater(calc_box, "8");
+                CalculatorUpdate.Updater(calc_box, "8", getApplicationContext());
                 break;
             case R.id.num9:
-                CalculatorUpdate.Updater(calc_box, "9");
+                CalculatorUpdate.Updater(calc_box, "9", getApplicationContext());
                 break;
 
             case R.id.dot:
-                CalculatorUpdate.Updater(calc_box, ".");
+                CalculatorUpdate.Updater(calc_box, ".", getApplicationContext());
                 break;
 
             case R.id.add:
-                CalculatorUpdate.Updater(calc_box, "+");
+                CalculatorUpdate.Updater(calc_box, "+", getApplicationContext());
                 break;
             case R.id.sub:
-                CalculatorUpdate.Updater(calc_box, "-");
+                CalculatorUpdate.Updater(calc_box, "-", getApplicationContext());
                 break;
             case R.id.mul:
-                CalculatorUpdate.Updater(calc_box, "*");
+                CalculatorUpdate.Updater(calc_box, "*", getApplicationContext());
                 break;
             case R.id.div:
-                CalculatorUpdate.Updater(calc_box, "÷");
+                CalculatorUpdate.Updater(calc_box, "÷", getApplicationContext());
                 break;
             case R.id.mod:
-                CalculatorUpdate.Updater(calc_box, "%");
+                CalculatorUpdate.Updater(calc_box, "%", getApplicationContext());
                 break;
 
             case R.id.del:
