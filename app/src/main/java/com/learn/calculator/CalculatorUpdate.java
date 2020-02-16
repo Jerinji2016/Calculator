@@ -4,8 +4,8 @@ import android.content.Context;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class CalculatorUpdate {
-    public static void Updater(TextView t, char s, Context context) {
+class CalculatorUpdate {
+    static void Updater(TextView t, char s, Context context) {
         String temp = (String) t.getText();
         if(temp.length() == 0) {
             temp += s;
@@ -21,7 +21,7 @@ public class CalculatorUpdate {
         }
     }
 
-    public static boolean checkOp(TextView t, char c, Context context) {
+    private static boolean checkOp(TextView t, char c, Context context) {
         String last_char = (String) t.getText();
         char x = last_char.charAt(last_char.length() - 1);
         String ops = "+-*÷%.";
