@@ -1,3 +1,9 @@
+/*
+*   Author : Jerin P Jimmy
+*   Code Mechanic
+*   No Copyright
+* */
+
 package com.learn.calculator;
 
 import android.os.Bundle;
