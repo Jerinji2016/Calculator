@@ -1,4 +1,4 @@
-package com.learn.calculator;
+package com.dev.calculator;
 
 public class Calculation {
     private String operand1;

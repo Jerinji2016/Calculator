@@ -1,11 +1,11 @@
 /*
 *   Author : Jerin P Jimmy
-*   Code Mechanic
 *   No Copyright
 * */
 
-package com.learn.calculator;
+package com.dev.calculator;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         calculation.setOpFlag(true);
     }
 
+    @SuppressLint("NonConstantResourceId")
     public void Calc(View view) {
         calc_box = findViewById(R.id.eqn_text);
         ans_box = findViewById(R.id.ans_text);

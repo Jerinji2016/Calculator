@@ -1,4 +1,4 @@
-package com.learn.calculator;
+package com.dev.calculator;
 
 import android.content.Context;
 import android.widget.TextView;
